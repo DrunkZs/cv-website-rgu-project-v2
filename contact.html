@@ -10,13 +10,15 @@
   </head>
   <body>
 
-  <header class="header">
-    <a href="home.html"><img src="banner2.jpeg" alt="banner"></a>
-  </header>
+    <header class="parallax">
+    </header>
 
   <section class="navbar">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
+        <a class="navbar-item" href="Home.html">
+          <i class="fa fa-home" aria-hidden="true"></i>
+        </a>
         <a class="navbar-item" href="Work.html">
           Work
         </a>
@@ -32,3 +34,59 @@
       </div>
     </nav>
   </section>
+
+  <article>
+    <div class="field">
+      <label class="label">Name</label>
+      <div class="control">
+        <input class="input" type="text" placeholder="Text input">
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Username</label>
+      <div class="control has-icons-left has-icons-right">
+        <input class="input" type="text" placeholder="Text input" value="">
+        <span class="icon is-small is-left">
+          <i class="fa fa-user"></i>
+        </span>
+
+    <div class="field">
+      <label class="label">Email</label>
+      <div class="control has-icons-left has-icons-right">
+        <input class="input" type="email" placeholder="Email input" value="">
+        <span class="icon is-small is-left">
+          <i class="fa fa-envelope"></i>
+        </span>
+
+
+    <div class="field">
+      <label class="label">Subject</label>
+      <div class="control">
+        <div class="select">
+          <select>
+            <option>Select dropdown</option>
+            <option>Email</option>
+            <option>Comment</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Message</label>
+      <div class="control">
+        <textarea class="textarea" placeholder="Textarea"></textarea>
+      </div>
+    </div>
+
+    <div class="field is-grouped">
+      <div class="control">
+        <button class="button is-link">Submit</button>
+      </div>
+      <div class="control">
+        <button class="button is-link">Cancel</button>
+      </div>
+    </div>
+    </form>
+  </article>

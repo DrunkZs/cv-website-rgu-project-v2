@@ -1,6 +1,7 @@
-body {
+body, html {
   background-color: #343D39;
   color: #6D6466;
+  height: 100%
 }
 
 .navbar {
@@ -33,11 +34,47 @@ article {
 .subtitle {
   color: #6D6466;
 }
-
+.label{
+  color: #6D6466;
+}
 .list {
   font-size: 30px;
 }
 
 .footer {
   background-color: #343D39;
+}
+
+.parallax {
+  background-image: url("banner2.jpeg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.iconhome{
+  padding-top: 13px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul {
+  padding-left:20px;
+  list-style:none;
+ }
+
+li:before {
+  font-family: 'FontAwesome';
+  content: '\f192';
+  margin:0 5px 0 -15px;
+  color: #6D6466;
+}
+.button.is-link {
+  color: #6D6466;
+  background-color: #36311F;
+}
+.button.is-link:hover{
+  color: black;
+  background-color: #59544B;
 }
