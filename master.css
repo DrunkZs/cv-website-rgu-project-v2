@@ -47,7 +47,7 @@ article {
 
 .parallax {
   background-image: url("banner2.jpeg");
-  height: 50%;
+  height: 48%;
   background-attachment: fixed;
   background-position: auto;
   background-repeat: no-repeat;
@@ -70,11 +70,17 @@ li:before {
   margin:0 5px 0 -15px;
   color: #6D6466;
 }
+
 .button.is-link {
   color: #6D6466;
   background-color: #36311F;
 }
+
 .button.is-link:hover{
   color: black;
   background-color: #59544B;
+}
+
+a{
+  color: #6D6444;
 }
